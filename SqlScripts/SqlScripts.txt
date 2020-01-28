@@ -1,0 +1,3 @@
+SELECT * FROM dbo.Products
+	INNER JOIN dbo.Categoty
+	ON dbo.Products.Id = dbo.Categoty.Id
